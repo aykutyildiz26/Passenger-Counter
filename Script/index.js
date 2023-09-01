@@ -28,11 +28,3 @@ function reset(){
     saveEl.innerText = ""
     amountEl.innerText = ("Passenger Entries: 0")
 }
-
-// Create a variable, messageToUser, that contains the message we have logged
-
-let username = "User 👋"
-let message = "You have tree new notifications"
-
-let messageToUser = message + ", " + username + "!"
-console.log(messageToUser)
